@@ -1,9 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/acutecomb.case,
-"\U00F8"
-);
 copyright = "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Alfa Slab One\"";
 customParameters = (
 {
