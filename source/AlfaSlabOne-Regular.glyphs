@@ -1,9 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/uhorn,
-n/ohorn/uhorn
-);
 copyright = "Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name \"Alfa Slab One\"";
 customParameters = (
 {
@@ -10608,10 +10604,14 @@ unicode = 0078;
 {
 color = 3;
 glyphname = y;
-lastChange = "2016-08-02 11:34:48 +0000";
+lastChange = "2016-08-04 07:05:29 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottom;
+position = "{532, 0}";
+},
 {
 name = top;
 position = "{326, 556}";
@@ -30043,7 +30043,7 @@ unicode = 1EDF;
 {
 color = 3;
 glyphname = ohorntilde;
-lastChange = "2016-08-02 23:20:31 +0000";
+lastChange = "2016-08-04 07:08:44 +0000";
 layers = (
 {
 components = (
@@ -30051,13 +30051,8 @@ components = (
 name = ohorn;
 },
 {
-name = tildecomb.loclVIET.case;
-transform = "{1, 0, 0, 1, 317, -222}";
-piece = {
-Group = 1;
-height = 155.477;
-width = 196.549;
-};
+name = tildecomb.loclVIET;
+transform = "{1, 0, 0, 1, 317, 0}";
 }
 );
 layerId = UUID0;
@@ -30067,9 +30062,9 @@ width = 624;
 unicode = 1EE1;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhorn;
-lastChange = "2016-08-02 23:26:14 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 anchors = (
@@ -30083,6 +30078,65 @@ position = "{307, 556}";
 }
 );
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"46 392 LINE",
+"46 181 LINE SMOOTH",
+"46 64 OFFCURVE",
+"98 -14 OFFCURVE",
+"212 -14 CURVE SMOOTH",
+"292.719 -14 OFFCURVE",
+"348.578 22.913 OFFCURVE",
+"392 77.777 CURVE",
+"392 0 LINE",
+"666 0 LINE",
+"666 164 LINE",
+"622 164 LINE",
+"622 532.009 LINE",
+"592 476 LINE",
+"671 499 OFFCURVE",
+"716 557 OFFCURVE",
+"716 641 CURVE SMOOTH",
+"716 661 LINE",
+"567 661 LINE",
+"567 641 LINE SMOOTH",
+"567 583 OFFCURVE",
+"543 556 OFFCURVE",
+"494 556 CURVE SMOOTH",
+"338 556 LINE",
+"338 392 LINE",
+"392 392 LINE",
+"392 228 LINE SMOOTH",
+"392 183 OFFCURVE",
+"372 164 OFFCURVE",
+"334 164 CURVE SMOOTH",
+"296 164 OFFCURVE",
+"276 183 OFFCURVE",
+"276 228 CURVE SMOOTH",
+"276 556 LINE",
+"2 556 LINE",
+"2 392 LINE"
+);
+}
+);
+width = 676;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = top;
+position = "{307, 556}";
+}
+);
+associatedMasterId = UUID0;
+layerId = "6C0933BA-BC79-4943-B560-5B4CB397B8E2";
+name = "Regular Aug 4 16, 12:34";
 paths = (
 {
 closed = 1;
@@ -30140,9 +30194,9 @@ width = 676;
 unicode = 01B0;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhornacute;
-lastChange = "2016-08-02 23:23:44 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30161,9 +30215,9 @@ width = 676;
 unicode = 1EE9;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhorndotbelow;
-lastChange = "2016-08-02 23:23:44 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30182,9 +30236,9 @@ width = 676;
 unicode = 1EF1;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhorngrave;
-lastChange = "2016-08-02 23:23:44 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30203,9 +30257,9 @@ width = 676;
 unicode = 1EEB;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhornhookabove;
-lastChange = "2016-08-02 23:23:44 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30224,9 +30278,9 @@ width = 676;
 unicode = 1EED;
 },
 {
-color = 0;
+color = 3;
 glyphname = uhorntilde;
-lastChange = "2016-08-02 23:23:44 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30245,9 +30299,9 @@ width = 676;
 unicode = 1EEF;
 },
 {
-color = 0;
+color = 3;
 glyphname = ydotbelow;
-lastChange = "2016-08-02 19:40:37 +0000";
+lastChange = "2016-08-04 07:05:52 +0000";
 layers = (
 {
 components = (
@@ -30256,10 +30310,11 @@ name = y;
 },
 {
 name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 532, 0}";
 }
 );
 layerId = UUID0;
-width = 600;
+width = 632;
 }
 );
 unicode = 1EF5;
@@ -32434,7 +32489,7 @@ unicode = 0335;
 },
 {
 glyphname = tildecomb.loclVIET.case;
-lastChange = "2016-08-02 23:29:45 +0000";
+lastChange = "2016-08-04 07:30:51 +0000";
 layers = (
 {
 anchors = (
