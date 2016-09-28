@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+"\U00C4"
+);
 classes = (
 {
 automatic = 1;
@@ -22211,7 +22214,7 @@ width = 0;
 {
 color = 3;
 glyphname = dieresiscomb.case;
-lastChange = "2016-08-02 20:29:01 +0000";
+lastChange = "2016-09-16 16:52:27 +0000";
 layers = (
 {
 anchors = (
@@ -22226,8 +22229,8 @@ position = "{0, 949}";
 );
 components = (
 {
-name = dieresis.cap;
-transform = "{1, 0, 0, 1, -230, -3}";
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, -3}";
 }
 );
 layerId = UUID0;
@@ -36709,7 +36712,7 @@ unicode = 0335;
 },
 {
 glyphname = tildecomb.loclVIET.case;
-lastChange = "2016-08-04 23:04:34 +0000";
+lastChange = "2016-09-16 16:51:38 +0000";
 layers = (
 {
 anchors = (
